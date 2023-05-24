@@ -21,7 +21,7 @@ def ENCRYPT_(key_text, plaintext):
         index=p_index+a_index
         if index>len(alphabet)-1:
             index-=len(alphabet)
-        print(char,a_index, p_char, p_index,index, encrypted_text)
+        #print(char,a_index, p_char, p_index,index, encrypted_text)
         encrypted_text+=alphabet[index]
         ctemp+=1
         
